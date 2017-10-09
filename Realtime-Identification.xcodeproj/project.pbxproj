@@ -14,6 +14,7 @@
 		73A59C371F8AFE5400359728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A59C351F8AFE5400359728 /* LaunchScreen.storyboard */; };
 		73A59C421F8AFE5400359728 /* Realtime_IdentificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A59C411F8AFE5400359728 /* Realtime_IdentificationTests.swift */; };
 		73A59C4D1F8AFE5400359728 /* Realtime_IdentificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A59C4C1F8AFE5400359728 /* Realtime_IdentificationUITests.swift */; };
+		73A59C5E1F8C070600359728 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 73A59C5D1F8C070100359728 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		73A59C481F8AFE5400359728 /* Realtime-IdentificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Realtime-IdentificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A59C4C1F8AFE5400359728 /* Realtime_IdentificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realtime_IdentificationUITests.swift; sourceTree = "<group>"; };
 		73A59C4E1F8AFE5400359728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A59C5D1F8C070100359728 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		73A59C201F8AFE5400359728 = {
 			isa = PBXGroup;
 			children = (
+				73A59C5D1F8C070100359728 /* Resnet50.mlmodel */,
 				73A59C2B1F8AFE5400359728 /* Realtime-Identification */,
 				73A59C401F8AFE5400359728 /* Realtime-IdentificationTests */,
 				73A59C4B1F8AFE5400359728 /* Realtime-IdentificationUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73A59C2F1F8AFE5400359728 /* ViewController.swift in Sources */,
+				73A59C5E1F8C070600359728 /* Resnet50.mlmodel in Sources */,
 				73A59C2D1F8AFE5400359728 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
