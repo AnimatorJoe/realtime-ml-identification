@@ -18,7 +18,12 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         super.viewDidLoad()
         
         // Starting up the camera
+        setCameraAccess()
         
+    }
+    
+    // Set up camera access
+    func setCameraAccess() {
         // Set up capture session
         let captureSession = AVCaptureSession()
         //captureSession.sessionPreset = .photo
@@ -44,7 +49,6 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         captureSession.addOutput(dataOutput)
         
         //VNImageRequestHandler(cgImage: <#T##CGImage#>, options: []).perform()
-        
     }
     
     // Called everytime camera updates frame
